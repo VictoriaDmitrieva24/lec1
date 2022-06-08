@@ -1,9 +1,9 @@
 ﻿Console.Write("Vvedite name:  ");
 string username = Console.ReadLine();
 
-if (username == "Masha")
+if (username.ToLower() == "masha")
 {
-    Console.WriteLine("oooo, Masha")
+    Console.WriteLine("oooo, Masha");
 }
 else
 {
